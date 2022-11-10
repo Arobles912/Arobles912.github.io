@@ -5,8 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      header{
+        background-image: url(Imagenes/Niguelas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        text-align: center;
+        font-size: 55px;
+        color: white;
+        text-decoration: underline;
+      }
+
+      nav{
+        text-align: left;
+        font-size: 20px;
+        padding: 15px;
+      }
+
+      div{
+        text-align: center;
+        font-size: 20px;
+        border: 2px solid black;
+        padding: 5px;
+      }
+
+      div.div-image{
+        position: absolute;
+        left: 100px;
+      }
+
+      div.div-image2{
+        right: 100px;
+        position: absolute;
+      }
+      div.div-image3{
+        position: absolute;
+        left: 100px;
+        top: 600px;
+      }
+
+      div.div-image4{
+        position: absolute;
+        right: 100px;
+        top: 600px;
+      }
+
+    </style>
 </head>
   <body>
-    <h1>Pagina proyecto</h1>
+    <header><b>Nigüelas</b></header>
+    <nav>
+      <a href="">Inicio</a> |
+      <a href="">Contacto</a> |
+      <a href="">Galería</a> |
+      <a href="">Localización</a> |
+      <a href="">Noticias</a> 
+    </nav>
+    <section>
+          <article>
+            <h2 style="font-size: 30px; text-align: center; padding-bottom: 10px;">Lugares que visitar</h2>
+            <div class="div-image">
+              <img style="width: 480px" height="240px" src="Imagenes/Ayuntamiento.jpg">
+              <br>
+              <b>Ayuntamiento</b>
+            </div>
+            <div class="div-image2">
+              <img style="width: 480px" height="240px" src="Imagenes/Pavilla.jpg">
+              <br>
+              <b>Pavilla</b>
+            </div>
+            <div class="div-image3">
+              <img style="width: 480px" height="240px" src="Imagenes/Molino.jpg">
+              <br>
+              <b>Molino</b>
+            </div>
+            <div class="div-image4">
+              <img style="width: 480px" height="240px" src="Imagenes/Razuela.jpg">
+              <br>
+              <b>Razuela</b>
+            </div>
+          </article>
+    </section>
   </body>
 </html>
