@@ -37,6 +37,11 @@
         width: 1000px;
       }
 
+      div.div-form{
+        top: 570px;
+        text-align: left;
+      }
+
       div.div-aside{
         left: 1030px;
         width: 300px;
@@ -77,7 +82,7 @@
       footer{
         position: relative;
         font-size: 20px;
-        top: 650px;
+        top: 900px;
         border: solid black 5px;
         background-color:#61C1F6 ;
         padding: 20px;
@@ -98,26 +103,63 @@
           <article>
             <h2 style="text-decoration-line: underline; font-size: 30px;">Contacto</h2>
             <div>
-              <p>
+              <h4>
                 Puede contactarnos de varias maneras vía online:
-              </p>
+              </h4>
               <br>
               <div class="div-logo">
-                <img src="Imagenes/twitter.jpg" width="80px" height="80px">
+                <img src="Imagenes/twitter.jpg" alt="twitter" width="80px" height="80px">
                 <p><a href="https://twitter.com/niguelas_">Twitter</a></p>
               </div>
               <div class="div-logo2">
-                <img src="Imagenes/facebook.png" width="80px" height="80px">
+                <img src="Imagenes/facebook.png" alt="facebook" width="80px" height="80px">
                 <p><a href="https://twitter.com/niguelas_">Facebook</a></p>
               </div>
               <div class="div-logo3">
-                <img src="Imagenes/gmail.png" width="80px" height="80px">
+                <img src="Imagenes/gmail.png" alt="gmail" width="80px" height="80px">
                 <p style="font-size: 20px;">ayuntamiento
                   niguelas@gmail.com</p>
               </div>
               <br>
-              <p>O bien, puede visitar nuestro ayuntamiento en el cual se le proporcionará toda la información que desee:</p>
-              <b> Calle Angustias, s/n – Nigüelas, Granada – 18657</b>
+            </div>
+            <div class="div-form">
+              <h4>
+                O bien, puede rellenar nuestro formulario:
+              </h4>
+              <form>
+                <label for="Nom">Nombre:</label>
+                <br>
+                <input type="text" id="Nom" name="Nom" value="Nombre">
+                <br>
+                <label for="Ap">Apellidos:</label>
+                <br>
+                <input type="text" id="Ap" name="Ap" value="Apellidos">
+                <br>
+                <label>Teléfono:</label>
+                <br>
+                <input type="number" id="nume" name="nume" value="000000000">
+                <br>
+                <label for="Em">Correo electrónico:</label>
+                <br>
+                <input type="email" id="Em" name="Em" value="contacto@gmail.com">
+                <br>
+                <br>
+                <label><b>¿Es una sugerencia o queja?</b></label>
+                <br>
+                <label for="res">Sugerencia</label>
+                <input type="radio" id="res" name="res">
+                <br>
+                <label for="tur">Queja</label>
+                <input type="radio" id="tur" name="tur">
+                <br>
+                <br>
+                <label>Mensaje:</label>
+                <br>
+                <textarea name="men" rows="7" cols="80">Introduce el texto aquí.</textarea>
+                <br>
+                <br>
+                <input type="submit" id="env" name="env" value="Enviar">
+              </form>
             </div>
           </article>
     </section>
