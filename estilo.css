@@ -1,13 +1,16 @@
-body, html{
+body,
+html {
+    margin: 0;
     height: 100%;
+    background-image: url("Imagenes/ultra2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 * {
     box-sizing: border-box;
-}
-
-a:hover{
-    color: #014398;
 }
 
 header {
@@ -18,7 +21,7 @@ header {
     border: 2px solid black;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-    
+
 }
 
 img.header-title {
@@ -27,15 +30,30 @@ img.header-title {
 }
 
 nav {
+    color: white;
     padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     width: 100%;
     border: 2px solid black;
     background: rgb(25, 94, 149);
     background: linear-gradient(90deg, rgba(25, 94, 149, 1) 0%, rgba(0, 183, 225, 1) 100%);
 }
 
+i {
+    padding-right: 10px;
+}
+
+div.icons-div{
+    display: inline-block;
+    color: white;
+}
+
+div.icons-div:hover{
+    color: #014398;
+}
+
 a {
-    color: whitesmoke;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     margin-top: 10px;
@@ -43,18 +61,13 @@ a {
     margin-bottom: 10px;
 }
 
-div.bg-image {
-    background-image: url("Imagenes/ultra.jpg");
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+a:hover{
+    color: #014398;
 }
 
-div.section-title{
+div.section-title {
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 20px;
     text-decoration: underline;
@@ -62,47 +75,58 @@ div.section-title{
 }
 
 section {
-  color: white;
-  text-shadow: 3px 3px 3px black;
-  font-weight: bold;
-  position: absolute;
-  font-size: 18px;
-  top: 158.6%;
-  left: 5%;
-  transform: translate(-5%, -130%);
-  z-index: 2;
-  width: 75%;
-  padding: 10px;
-  text-align: left;
-  border: 2px solid white;
-}
-
-img.img-1{
-    float: right;
-    width: 280px;
-    height: 240px;
-}
-
-
-aside{
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4); 
-    color: white;
-    text-shadow: 3px 3px 3px black;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Consolas', monospace;
+    color: whitesmoke;
+    text-shadow: 5px 3px 3px black;
+    float: left;
     font-weight: bold;
-    position: absolute;
     font-size: 18px;
-    top: 58%;
-    left: 98%;
-    transform: translate(-98%, -57%);
+    width: 77%;
+    padding: 10px;
+    text-align: left;
     z-index: 2;
-    width: 22%;
-    padding: 20px;
-    text-align: center;
     border: 2px solid white;
 }
 
-div.aside-title{
+hr {
+    border-top: 4px solid whitesmoke;
+}
+
+img.img-1 {
+    float: right;
+    width: 400px;
+    height: 360px;
+    margin-left: 10px;
+    border: 4px solid black;
+}
+
+img.img-2 {
+    float: left;
+    width: 480px;
+    height: 360px;
+    margin-right: 10px;
+    border: 4px solid black;
+}
+
+aside {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+    font-weight: bold;
+    float: right;
+    font-size: 18px;
+    z-index: 2;
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+    height: 100%;
+}
+
+div.aside-title {
     font-style: italic;
     text-align: center;
     font-size: 20px;
