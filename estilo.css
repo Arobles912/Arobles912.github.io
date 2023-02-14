@@ -20,7 +20,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 
@@ -37,24 +36,20 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     width: 100%;
     border: 2px solid black;
-    background: rgb(25, 94, 149);
-    background: linear-gradient(90deg, rgba(25, 94, 149, 1) 0%, rgba(0, 183, 225, 1) 100%);
+    background: rgb(18, 68, 107);
+    background: linear-gradient(90deg, rgba(18, 68, 107, 1) 0%, rgba(14, 92, 184, 1) 50%, rgba(0, 183, 246, 1) 100%);
 }
 
 i {
     padding-right: 10px;
 }
 
-div.icons-div{
+div.icons-div {
     display: inline-block;
     color: white;
 }
 
-div.icons-div:hover{
-    color: #014398;
-}
-
-a {
+a.nav-a {
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -63,8 +58,8 @@ a {
     margin-bottom: 10px;
 }
 
-a:hover{
-    color: #014398;
+a.nav-a:hover {
+    color: #0a6ff1;
 }
 
 div.section-title {
@@ -86,9 +81,54 @@ section {
     font-weight: bold;
     font-size: 18px;
     width: 77%;
+    height: 1100px;
     padding: 10px;
     text-align: left;
     z-index: 2;
+}
+
+div.last-song{
+    display: flex;
+    justify-content: center;
+}
+
+img.img-hero{
+    width: 350px;
+    height: 280px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+div.last-song-frame{
+    display: flex;
+    justify-content: center;
+}
+
+div.last-song-div{
+    display: flex;
+    justify-content: center;
+}
+
+span.last-song-span{
+    font-size: 25px;
+}
+
+div.other-song{
+    display: flex;
+    justify-content: center;
+}
+
+div.other-song-div{
+    padding: 10px;
+    display: block;
+
+}
+
+img.other-song-img{
+    width: 210px;
+    height: 190px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
 }
 
 hr {
@@ -125,7 +165,7 @@ aside {
     padding: 15px;
     text-align: center;
     border: 2px solid white;
-    height: 900px;
+    height: 1100px;
 }
 
 div.aside-title {
@@ -137,18 +177,61 @@ div.aside-title {
     font-family: 'Roboto Slab', serif;
 }
 
-hr.aside-hr{
+hr.aside-hr {
     border-top: 1px solid whitesmoke;
     margin: 15px;
 }
 
-div.aside-p{
+div.aside-p {
     border: 2px solid white;
     color: rgb(158, 158, 158);
 }
 
-span{
+span {
     color: whitesmoke;
     font-size: 20px;
     line-height: 2;
+}
+
+footer{
+    color: white;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    background: rgb(18, 68, 107);
+    background: linear-gradient(90deg, rgba(18, 68, 107, 1) 0%, rgba(14, 92, 184, 1) 50%, rgba(0, 183, 246, 1) 100%);
+}
+
+div.copy-div-footer{
+    width: 50%;
+    font-size: 15px;
+}
+
+div.media-div-footer{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-top: 11px;
+}
+
+img.img-icons{
+    width: 30px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.foot-a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+a.foot-a:hover{
+    color: #06489e;
 }
