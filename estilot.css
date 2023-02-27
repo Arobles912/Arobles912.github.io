@@ -98,6 +98,8 @@ div.new-collection{
 }
 
 div.new-collection-div{
+    position: relative;
+    overflow: hidden;
     padding: 10px;
     width: 100%;
     display: block;
@@ -106,6 +108,7 @@ div.new-collection-div{
 
 
 img.new-collection-img{
+    position: relative;
     width: 300px;
     height: 350px;
     border: 2px solid whitesmoke;
@@ -114,11 +117,24 @@ img.new-collection-img{
 }
 
 img.new-collection-img1{
-    display: none;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
+    width: 300px;
+    height: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #C9CDE5;
+    opacity: 0;
+}
+
+div.new-collection-div:hover img.new-collection-img1{
+    opacity: 1;
+    position: relative;
+}
+
+div.new-collection-div:hover img.new-collection-img{
+    position: absolute;
+    opacity: 0;
+    display: none;
 }
 
 h4.new-collection-title{
@@ -226,3 +242,4 @@ a.foot-a {
 a.foot-a:hover{
     color: #06489e;
 }
+

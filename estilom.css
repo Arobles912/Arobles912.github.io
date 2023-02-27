@@ -84,7 +84,7 @@ section {
     padding: 10px;
     text-align: left;
     z-index: 2;
-    min-height: 1262px;
+    min-height: 1355px;
     overflow: hidden;
 }
 
@@ -95,7 +95,7 @@ div.last-song{
 
 img.img-hero{
     width: 350px;
-    height: 280px;
+    height: 320px;
     border: 3px solid whitesmoke;
     border-radius: 10px;
 }
@@ -111,7 +111,7 @@ div.last-song-div{
 }
 
 span.last-song-span{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 div.other-song{
@@ -127,14 +127,15 @@ div.other-song-div{
 }
 
 img.other-song-img{
-    width: 180px;
-    height: 160px;
+    width: 220px;
+    height: 180px;
     border: 2px solid whitesmoke;
     border-radius: 10px;
 }
 
 span.other-song-span{
     font-size: 20px;
+    width: 100%;
 }
 
 hr {
@@ -155,7 +156,7 @@ aside {
     padding: 15px;
     text-align: center;
     border: 2px solid white;
-    min-height: 1262px;
+    min-height: 1355px;
     overflow: hidden;
 }
 
